@@ -1,0 +1,11 @@
+Tema 2
+Factory Method = lasi subclasele sa se ocupe de crearea obiectulu(produs)
+Abstract Factory = creezi familii de obiecte corelate (care merg impreuna), garantand compatibilitatea între ele
+Builder = construiesti obiecte complexe pas cu pas, cu optiuni multe, ordine flexibila, imutabilitate.
+1 Factory Method(ex)
+când subclasele determină varianta produsului și vrei să eviți if/else imprastiate.
+2 Abstract Factory(ex)
+când trebuie să schimbi între familii de produse compatibile (teme, drivere, dialecte SQL, etc.) fără if/else prin codul client.
+3 Builder(ex)
+obiecte imutabile, multe opțiuni, validări pe pași
+
